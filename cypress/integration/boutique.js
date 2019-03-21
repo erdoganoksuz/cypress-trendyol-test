@@ -18,6 +18,7 @@ describe("m.trendyol.com", () => {
     it("Product images and brand name should be exist", () => {
         cy.get(".boutique").first().click();
         cy.get(".product").first().click();
+
         cy.get(".gallery__image").should("have.length.greaterThan", 1);
         cy.get(".product_info__brand").should("exist");
 
