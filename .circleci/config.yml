@@ -4,11 +4,6 @@ orbs:
 workflows:
   build:
     jobs:
-       - run: 
-          name: "Setup custom environment variables"
-          command: |
-            echo 'export CYPRESS_RECORD_KEY="d972a33b-ac48-48a1-b39c-03280fd073d3"' >> $BASH_ENV
       - cypress/run:
-          record: true
 
           
