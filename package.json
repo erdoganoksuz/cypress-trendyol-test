@@ -1,0 +1,13 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:ui": "npx cypress open",
+    "start": "npx cypress run"
+  },
+  "dependencies": {
+    "cypress": "^3.2.0"
+  }
+}
